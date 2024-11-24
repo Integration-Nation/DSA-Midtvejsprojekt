@@ -13,9 +13,8 @@ This project visualizes the Counting Sort algorithm, allowing users to input a c
 
 ## How to Run
 
-1. Clone or download the project files.
-2. Open the `index.html file` in a web browser.
-   3.Interact with the application:
+- https://integration-nation.github.io/DSA-Midtvejsprojekt/
+  3.Interact with the application:
 
 - Enter a list of numbers in the input field.
 - Click "Submit" to start the sorting process.
