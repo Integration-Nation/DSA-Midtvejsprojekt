@@ -14,7 +14,6 @@ function initApp() {
 function submitInput(event) {
   event.preventDefault();
   const form = event.target;
-
   const input = form.array.value;
 
   inputArray = input.split(",").map((item) => Number(item));
@@ -31,7 +30,7 @@ function refresh() {
 }
 // ****** MODEL ******
 
-let inputArray = [2, 5, 7, 9, 0, 4, 3, 8, 4];
+let inputArray;
 
 async function countingSort(input) {
   const max = Math.max(...input);
@@ -81,6 +80,7 @@ function displayInput(inputArray) {
     );
   }
 }
+
 function displayChart(inputArray) {
   document.querySelector(".chart").innerHTML = "";
   for (let i = 0; i < inputArray.length; i++) {
